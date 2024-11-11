@@ -131,7 +131,6 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
 
-# MEDIA_ROOT = ''
 MEDIA_ROOT = BASE_DIR / 'static/images'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
@@ -139,8 +138,8 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 AWS_QUERYSTRING_AUTH = False
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-AWS_ACCESS_KEY_ID = 'AKIAVRUVQSE77WAILQH5'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 
 AWS_STORAGE_BUCKET_NAME = 'photoshare-bucket0'
 
