@@ -1,0 +1,23 @@
+/* Example CSS styles */
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 36px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+img {
+    border: 2px solid black;
+    padding: 5px;
+}
